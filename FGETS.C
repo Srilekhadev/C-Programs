@@ -6,7 +6,8 @@ void main()
 {
 	char line[80];
 	FILE *fp;
-	fp=fopen("apex.txt","r");
+	clrscr();
+	fp=fopen("A.txt","r");
 	if(fp==NULL)
 	{
 		printf("\nError: file unable to open.");

@@ -29,9 +29,10 @@ void main()
 	 printf("\n====================================================");
 	 while(fread(&s,sizeof(s),1,fp)==1)
 	 {
-		if(s.rn==n)
+		if(n==s.rn)
 		{
-		printf("\n%-15s%-4d%-4d%-4d%-4d%-4d%-5s",s.name,s.rn,s.m1,s.m2,s.tot,s.avg,s.res);
+		printf("\n%-15s%-4d%-4d%-4d%-4d%-4d%-5s",
+					 s.name,s.rn,s.m1,s.m2,s.tot,s.avg,s.res);
 		found=1;
 		}
 	 }

@@ -35,7 +35,7 @@ void main()
 
 		 printf("\n 1 record added.");
 		 printf("\nWant to add more records [y/n] :");
-		 fflush(stdin);
+		 fflush(stdin);  /* clears keyboard buffer */
 		 scanf("%c",&ans);
 	  }while(ans=='y' || ans=='Y');
 	  fclose(fp);

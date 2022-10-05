@@ -5,7 +5,8 @@ void main()
 {
 	char line[80];
 	FILE *fp;
-	fp=fopen("apex.txt","w");
+	clrscr();
+	fp=fopen("dev.txt","w");
 	if(fp==NULL)
 	{
 		printf("\nError: file unable to create.");

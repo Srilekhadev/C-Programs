@@ -19,14 +19,14 @@ void main()
 	 }
 
 	 printf("\n\t\t Student Details\n");
-	 printf("\nName\t\tRn  M1  M2  Tot  Avg  Res\n");
+	 printf("\nName\t      Rn  M1  M2  Tot  Avg    Res");
 	 printf("\n============================================");
 
-	 while ( fscanf(fp,"%s%d%d%d%d%f%s",name,&rn,&m1,&m2,&tot,
-																&avg,res) !=EOF)
+	 while ( fscanf(fp,"%s%d%d%d%d%f%s",
+			name,&rn,&m1,&m2,&tot,&avg,res) !=EOF)
 	 {
-		printf("\n%-15s%-4d%-4d%-4d%-4d%-8.2f%-5s",name,rn,m1,m2,
-															tot,avg,res);
+		printf("\n%-15s%-4d%-4d%-4d%-4d%-8.2f%-5s",
+name,rn,m1,m2,tot,avg,res);
 	 }
 
 	  fclose(fp);

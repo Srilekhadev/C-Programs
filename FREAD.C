@@ -21,7 +21,7 @@ void main()
 		exit(1);
 	 }
 	 printf("\n\t\t Students Records\n");
-	 printf("\nName\t\tRn  M1  M2  Tot  Avg  Res\n");
+	 printf("\nName\t   Rn  M1  M2  Tot  Avg  Res\n");
 	printf("\n===============================================");
 	 while( fread( &s,sizeof(s),1,fp)==1)
 	 {

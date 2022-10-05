@@ -27,8 +27,8 @@ void main()
 		else
 		  strcpy(res,"fail");
 
- fprintf(fp,"%s\n%d\n%d\n%d\n%d\n%f\n%s\n",
-								 name,rn,m1,m2,tot,avg,res);
+	fprintf(fp,"%s\n%d\n%d\n%d\n%d\n%f\n%s\n",
+				  name,rn,m1,m2,tot,avg,res);
 
 		 printf("\nWant to continue [y/n] :");
 		 fflush(stdin); /* clears key board buffer */
